@@ -3,6 +3,15 @@ const express = require('express');
 const router= express.Router();
 
 
+const { repositorySchema, subscriberSchema, bugSubmissionSchema } = require('../schema/databaseSchema');
+const mongoose = require('mongoose');
+
+// Models
+const Repository = mongoose.model('Repository', repositorySchema);
+const Subscriber = mongoose.model('Subscriber', subscriberSchema);
+const BugSubmission = mongoose.model('BugSubmission', bugSubmissionSchema);
+
+
 // Helper functions
 const formatStarsDisplay = (stars) => {
   if (stars >= 1000000) {

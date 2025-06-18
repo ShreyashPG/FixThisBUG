@@ -9,7 +9,6 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const router = require('./routes/repositoryRouter');
 
-const { repositorySchema, subscriberSchema, bugSubmissionSchema } = require('./schema/databaseSchema');
 const errorMiddleware = require('./middleware/errorMiddleware');
 const handler  = require('./middleware/handler');
 
@@ -46,10 +45,6 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
-// Models
-const Repository = mongoose.model('Repository', repositorySchema);
-const Subscriber = mongoose.model('Subscriber', subscriberSchema);
-const BugSubmission = mongoose.model('BugSubmission', bugSubmissionSchema);
 
 
 // Routes
