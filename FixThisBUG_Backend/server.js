@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const rateLimit = require('express-rate-limit');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const router = require('./routes/repositoryRouter');
+const router = require('./controller/repositoryRouter');
 
 const errorMiddleware = require('./middleware/errorMiddleware');
 const handler  = require('./middleware/handler');
