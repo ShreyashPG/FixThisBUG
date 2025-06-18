@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Star, Calendar, MessageCircle, Filter, Github, Code, Users, Bug, ArrowRight, Mail, Bell, Plus, X, AlertCircle, CheckCircle, Send } from 'lucide-react';
-const API_BASE_URL = process.env.API_BASE_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000/api';
 
+console.log('API_BASE_URL:', API_BASE_URL);
 const FixThisBugApp = () => {
   const [repositories, setRepositories] = useState([]);
   const [languages, setLanguages] = useState([]);
