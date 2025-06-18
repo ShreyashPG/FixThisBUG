@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "FixThisBug - Backend API for open source bug tracking",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
