@@ -218,7 +218,7 @@ const FixThisBugApp = () => {
               <a href="/about" className="text-gray-700 hover:text-red-500 transition-colors">About</a>
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors flex items-center space-x-2">
                 <Github className="h-4 w-4" />
-                                <span><a href="https://github.com/ShreyashPG">GitHub</a></span>
+                                <span><a href="https://github.com/ShreyashPG/FixThisBUG">GitHub</a></span>
               </button>
             </div>
           </div>
@@ -694,7 +694,7 @@ const FixThisBugApp = () => {
                               {/* <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li> */}
                               {/* <li><a href="#" className="hover:text-white transition-colors">Contributor Guide</a></li> */}
                               {/* <li><a href="#" className="hover:text-white transition-colors">API Reference</a></li> */}
-                             <li><a href="http://github.com/ShreyashPG" className="hover:text-white transition-colors">GitHub</a></li>
+                             <li><a href="http://github.com/ShreyashPG/FixThisBUG" className="hover:text-white transition-colors">GitHub</a></li>
 
                             </ul>
                           </div>

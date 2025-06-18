@@ -14,7 +14,7 @@ const AboutPage = () => {
             </div>
             <div className="flex items-center space-x-4">
               <a 
-                href="https://github.com/ShreyashPG" 
+                href="https://github.com/ShreyashPG/FixThisBUG" 
                 className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors flex items-center space-x-2"
               >
                 <Github className="h-4 w-4" />
@@ -246,7 +246,7 @@ const AboutPage = () => {
                 {/* <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li> */}
                 {/* <li><a href="#" className="hover:text-white transition-colors">Contributor Guide</a></li> */}
                 {/* <li><a href="#" className="hover:text-white transition-colors">API Reference</a></li> */}
-                <li><a href="http://github.com/ShreyashPG" className="hover:text-white transition-colors">GitHub</a></li>
+                <li><a href="http://github.com/ShreyashPG/FixThisBUG" className="hover:text-white transition-colors">GitHub</a></li>
               </ul>
             </div>
             
